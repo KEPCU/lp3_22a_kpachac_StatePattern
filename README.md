@@ -587,12 +587,17 @@ Al ver el TextArea parece que los resultados no son buenos, pero en realidad lo 
 
 Al no poder enlazar de manera adecuada el contenido del TextArea con la consola, se hace uso de Alerts, de esta manera no se tendrá problemas con los Threads para mostrar los mensajes de los procesos internos de programa.
 
+## Uso del Patrón
+Encontrar el uso del State Pattern de forma "oficial" es muy complejo, por lo menos en librerías o programas. Quizás lo más visible es el uso del patrón con Unity (no dentro). Esto se ve en los muchos artículos, uno de ellos el de Habrador, donde se menciona mucho del uso que le dan los desarrolladores a este patrón. Otro uso dentro de Unity es cuando se trata de hacer un FSM Jerárquico (Finite State Machine), que es casi lo mismo, toma mucho del State Pattern. Lo más importante del State Pattern en cuanto aporte, es la facilidad para agrupar, en este caso estados; quizás el más importante es el de la reducción de código, esdo debido a que ya no se debe repetir código. Por último se podría mencionar la jerarquía que puede haber y permite este patrón, esto debido a la cantidad de estados hijosque pueden haber del AbstractState. Algo parecido pasa en Unreal, aunque en este son más usuales otros tipos de patrones.
+
 ## Conclusión
 
-Está más que demostrado la utilidad del patrón State en escenarios donde el comportamiento cambia según el estado en el que se encuentre la aplicación, un escenario común donde se puede implementar este patrón es donde se ve código que basa su funcionamiento en un switch o en una serie de instrucciones else if. También se debe recalcar el buen uso de Threads, si no se usan de manera adecuada se pueden tener resultados no satisfactorios.
+Está más que demostrado la utilidad del patrón State en escenarios donde el comportamiento cambia según el estado en el que se encuentre la aplicación, un escenario común donde se puede implementar este patrón es donde se ve código que basa su funcionamiento en un switch o en una serie de instrucciones else if. En el primer ejemplo o escenario se pudo ver el buen funcionamiento, aunque quizás se pudo hacer algo más avnzado para ver un poco más de cerca el funcionamiento del State Pattern . También se debe recalcar el buen uso de Threads, si no se usan de manera adecuada se pueden tener resultados no satisfactorios.
 
 ## Referencias
 - Oscar J Blancarte Iturralde. Introducción a los patrones de diseño_ Un enfoque práctico (Spanish Edition. CreateSpace Independent Publishing Platform (2016)
 - Wikipedia. (2022, March 15). State Pattern. https://en.wikipedia.org/wiki/State_pattern
 - Refactoring. (n.d.). State. https://refactoring.guru/design-patterns/state
 - TutorialsPoint. (n.d.). Design Patterns - State Pattern. https://www.tutorialspoint.com/design_pattern/state_pattern.htm
+- Habrador. (n.d.). Game programming patterns in Unity with C#. https://www.habrador.com/tutorials/programming-patterns/6-state-pattern/
+- Pêcheux, M. (2021, July 28). Make a hierarchical FSM in Unity/C#. Medium. https://medium.com/geekculture/make-a-hierarchical-fsm-in-unity-c-6809d49f8955
