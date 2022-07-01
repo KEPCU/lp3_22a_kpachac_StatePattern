@@ -1,0 +1,15 @@
+E:\csharp\uni\StatePattern\StatePattern\bin\Debug\net6.0\StatePattern.exe
+E:\csharp\uni\StatePattern\StatePattern\bin\Debug\net6.0\StatePattern.deps.json
+E:\csharp\uni\StatePattern\StatePattern\bin\Debug\net6.0\StatePattern.runtimeconfig.json
+E:\csharp\uni\StatePattern\StatePattern\bin\Debug\net6.0\StatePattern.dll
+E:\csharp\uni\StatePattern\StatePattern\bin\Debug\net6.0\StatePattern.pdb
+E:\csharp\uni\StatePattern\StatePattern\obj\Debug\net6.0\StatePattern.csproj.AssemblyReference.cache
+E:\csharp\uni\StatePattern\StatePattern\obj\Debug\net6.0\StatePattern.GeneratedMSBuildEditorConfig.editorconfig
+E:\csharp\uni\StatePattern\StatePattern\obj\Debug\net6.0\StatePattern.AssemblyInfoInputs.cache
+E:\csharp\uni\StatePattern\StatePattern\obj\Debug\net6.0\StatePattern.AssemblyInfo.cs
+E:\csharp\uni\StatePattern\StatePattern\obj\Debug\net6.0\StatePattern.csproj.CoreCompileInputs.cache
+E:\csharp\uni\StatePattern\StatePattern\obj\Debug\net6.0\StatePattern.dll
+E:\csharp\uni\StatePattern\StatePattern\obj\Debug\net6.0\refint\StatePattern.dll
+E:\csharp\uni\StatePattern\StatePattern\obj\Debug\net6.0\StatePattern.pdb
+E:\csharp\uni\StatePattern\StatePattern\obj\Debug\net6.0\StatePattern.genruntimeconfig.cache
+E:\csharp\uni\StatePattern\StatePattern\obj\Debug\net6.0\ref\StatePattern.dll
