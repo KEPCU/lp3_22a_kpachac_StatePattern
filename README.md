@@ -30,7 +30,7 @@ Abstract State o State: Clase base para generar los distintos estados que se vay
 
 Concrete State: Representa cada estado posible, que hereda de Abstract State.
 
-![alt text](https://github.com/KEPCU/lp3_22a_kpachac_StatePattern/blob/master/img/SequenceDiagram.jpg)
+![alt text](img/SequenceDiagram.jpg)
 
 Diagrama de secuencia del patrón de diseño State.
 
@@ -61,23 +61,23 @@ Los estados por los que deberá pasar el servidor son:
 
 Sólo se podrá establecer los estados Detenido e Iniciando.
 
-![alt text](https://github.com/KEPCU/lp3_22a_kpachac_StatePattern/blob/master/img/ScreenPrototype.png)
+![alt text](img/ScreenPrototype.png)
 
 En la parte superior se tiene el botón de Start que establecerá el estado del servidor en Iniciando, si lo volvemos a presionar establecerá el estado Detenido. El segundo botón es Send Message el cual envía una petición al servidor. Por último, se tiene el botón Add, que aumenta el número permitido de peticiones. Los mensajes de los procesos aparecerán en el TextArea.
 
-![alt text](https://github.com/KEPCU/lp3_22a_kpachac_StatePattern/blob/master/img/ExecutionFlow%20.jpg)
+![alt text](img/ExecutionFlow%20.jpg)
 
 Uno de los errores más comunes en este tipo de implementaciones es utilizar switch o una serie de else if. Es un diseño poco mantenible y fomenta que implementemos toda la lógica en esta misma clase.
 
-![alt text](https://github.com/KEPCU/lp3_22a_kpachac_StatePattern/blob/master/img/ExecutionFlow2%20.jpg)
+![alt text](img/ExecutionFlow2%20.jpg)
 
 Esta es la forma de aplicar el State Pattern. Cuando una solicitud llega al servidor es delegada al estado actual del servidor, la cual será establecida por acciones del usuario o por las circunstancias dadas en tiempo de ejecución.
 
 ## Implementación
 
-![alt text](https://github.com/KEPCU/lp3_22a_kpachac_StatePattern/blob/master/img/ProjectStructure.png)
+![alt text](img/ProjectStructure.png)
 
-![alt text](https://github.com/KEPCU/lp3_22a_kpachac_StatePattern/blob/master/img/StatePatternUML2.jpg)
+![alt text](img/StatePatternUML2.jpg)
 
 ### Clase Server
 Representa al Context del patrón de diseño ya que es el que puede cambiar de estado; contiene las siguientes propiedades: 
@@ -467,11 +467,11 @@ namespace StatePattern {
 
 Para probar la aplicación se ejecuta la clase Program y se verán los siguientes resultados: 
 
-![alt text](https://github.com/KEPCU/lp3_22a_kpachac_StatePattern/blob/master/img/MainScreen.png)
+![alt text](img/MainScreen.png)
 
 Al ver el TextArea parece que los resultados no son buenos, pero en realidad lo que pasa es que al usar un evento y asignarlo justo después de inicializar state, no muestra el mensaje.
 
-![alt text](https://github.com/KEPCU/lp3_22a_kpachac_StatePattern/blob/master/img/ExecutionResult.png)
+![alt text](img/ExecutionResult.png)
 
 Al no poder enlazar de manera adecuada el contenido del TextArea con la consola, se hace uso de Alerts, de esta manera no se tendrá problemas con los Threads para mostrar los mensajes de los procesos internos de programa.
 
